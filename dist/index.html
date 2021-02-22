@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FavMov</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+</head>
+
+<body>
+    <header>
+        <app-bar></app-bar>
+    </header>
+
+    <main>
+        <div class="jumbotron" style="background: url(./images/bg-image.png) center center;">
+            <div class="container">
+                <h1>Welcome.</h1>
+                <p>Millions of movies, TV shows and people to discover. Explore now.</p>
+                <div id="search-container" class="search-container">
+                    <form>
+                        <input placeholder="Search movie" id="search" name="search" type="search">
+                        <button id="btnSearch" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <section class="genre">
+            <div class="container">
+                <movie-genre></movie-genre>
+            </div>
+        </section>
+
+        <section class="movies">
+            <div class="container">
+                <div id="listMovie" class="row"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            &copy;2020 <strong>FavMov</strong> by Yordan Andy. All Rights Reserved.
+        </div>
+    </footer>
+
+<script type="text/javascript" src="app.e6a8943fb98319dbc2ca.js"></script></body>
+
+</html>
